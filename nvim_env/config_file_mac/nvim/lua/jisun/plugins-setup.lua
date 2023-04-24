@@ -106,6 +106,9 @@ return packer.startup(function(use)
 
   -- git integration
   use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
+  
+  -- jisun: ipynb file load and run codes
+  use("luk400/vim-jukit")
 
   if packer_bootstrap then
     require("packer").sync()
